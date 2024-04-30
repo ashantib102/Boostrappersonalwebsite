@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
  :root {
   --bs-blue: #5c0655;
   --bs-indigo: #6610f2;
@@ -132,6 +133,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  color: #710e7c;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -168,6 +170,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 abbr[title] {
@@ -2299,7 +2302,7 @@ progress {
   --bs-btn-color: #212529;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #212529;
+  --bs-btn-hover-bg: #83247e;
   --bs-btn-hover-border-color: #212529;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
   --bs-btn-active-color: #fff;
@@ -3356,8 +3359,8 @@ progress {
   --bs-card-inner-border-radius: calc(0.375rem - 1px);
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
-  --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
-  --bs-card-cap-color: ;
+  --bs-card-cap-bg: rgba(0, 0, 0, 0);
+  --bs-card-cap-color:;
   --bs-card-height: ;
   --bs-card-color: ;
   --bs-card-bg: #fff;
@@ -7130,8 +7133,10 @@ progress {
 
 .py-5 {
   padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-bottom: 0.1rem !important;
 }
+
+
 
 .pt-0 {
   padding-top: 0 !important;
@@ -10763,7 +10768,7 @@ html {
 }
 
 .rounded-4 {
-  border-radius: 1rem !important;
+  border-radius: 3rem !important;
 }
 
 .feature {
