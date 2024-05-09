@@ -10,7 +10,12 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 2600px; 
+}
 
  :root {
   --bs-blue: #5c0655;
@@ -1573,7 +1578,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 2400px) {
+@media (min-width: 1400px) {
   .col-xxl {
     flex: 1 0 0%;
   }
