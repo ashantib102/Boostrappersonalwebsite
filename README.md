@@ -1,1 +1,1 @@
-Here is the first version of my personal website that I made using a boostrap template.
+Here is the first version of my personal website that I created using a boostrap template to showcase some of my skills and projects. I eventually decided to create another one from stratch for greater customization. This project helped me to better understand more complex CSS code set ups and how to implement features such as color gradients.
