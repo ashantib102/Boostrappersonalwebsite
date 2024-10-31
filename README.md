@@ -1,1 +1,2 @@
-Here is the first version of my personal website that I created using a boostrap template to showcase some of my skills and projects. I eventually decided to create another one from stratch for greater customization. This project helped me to better understand more complex CSS code set ups and how to implement features such as color gradients.
+This is the first iteration of my personal website, built using a Bootstrap template to showcase my skills and projects. While this version effectively highlights my work, I later opted to develop a new version from scratch to allow for greater customization. Through this project, I gained hands-on experience with more advanced CSS configurations, including implementing color gradients and optimizing layout responsiveness. 
+
